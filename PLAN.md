@@ -1,4 +1,5 @@
-# EndorseMe — Product Plan
+# ClientWord / Clientward — Product Plan
+(working name: EndorseMe → now leaning toward Clientward, domain clientward.co available for $13)
 
 ## What It Is
 
@@ -132,7 +133,28 @@ who already trust a tool Derek built. They're the exact target customer.
 
 ## Open Questions
 
-- Final domain name (endorseme.co? getendorseme.com? endorsed.so?)
+- Final domain name — clientward.co is available for $13, clientword.com also available
 - Whether to add a simple embeddable widget in v1 or hold for v2
 - Whether the collection form should allow photo upload from submitter
 - Annual pricing discount ($15/month billed annually vs $19/month)
+
+## Name Research (2026-04-17)
+
+Domains checked and rejected: endorseme.com (taken), vouched.co (taken),
+cosigned.co (taken), proofbox.co (available but generic), clientbrag.com (available
+but "brag" feels self-promotional), clientshout.com (available but phonetically awkward).
+
+**Frontrunner: clientward.co** — "ward" implies orientation toward clients,
+directional, distinctive, not owned in this space. $13/yr. Grab it.
+
+Runner-up: clientword.com — "take my client's word for it" writes itself. Clean,
+professional, immediately understood.
+
+## Build Timeline
+
+- Weeks 1–2: Scaffold Next.js app, Supabase auth, basic dashboard
+- Weeks 3–4: Collection link + public form (core loop)
+- Week 5: Stripe integration, deploy to Vercel
+- Week 6: Email therateguide.com list, offer free Pro to first 50 signups
+- First dollar: ~6 weeks from start
+- $5K/month target: 6–12 months
